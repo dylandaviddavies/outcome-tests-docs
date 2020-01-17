@@ -13,7 +13,14 @@ module.exports = {
         ],
         sidebar: {
             '/guide/': [
-                ''
+                {
+                    collapsable: false,
+                    title: 'Guide',
+                    path: '',
+                    children: [
+                        ['', 'Introduction']
+                    ]
+                }
             ],
             '/outcome/': [
                 ''

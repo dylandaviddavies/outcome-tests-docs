@@ -1,17 +1,17 @@
 # DfAllQuestionsTest <Badge text="test" vertical="middle" />
 
 ## Test Case
-Answering a dynamic form with all types of Dynamic Form Questions.
+Answering a **Dynamic Form** with all [Types](../data/df-question-type) of [Dynamic Form Questions](../data/df-question).
 
 ## Requirements
 * A test module
-* A questionnaire in the **Dynamic Forms** test page that has questions of all types.
+* A questionnaire in the **Dynamic Forms** test page that has questions of all [Types](../data/df-question-type).
 
 ## Test Data
 ### Attributes
 
 #### questionnaireId <Badge text="string" vertical="middle" />
-Toggles the occurred checkbox.
+The unique identifier of the questionnaire being answered.
 
 #### answers <Badge text="array of Dynamic Form Answers" vertical="middle" />
 The [Answers](../data/df-answer) for the Dynamic Form.
@@ -37,3 +37,4 @@ The [Answers](../data/df-answer) for the Dynamic Form.
     ]
 }
 ```
+
