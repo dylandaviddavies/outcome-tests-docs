@@ -18,7 +18,10 @@ module.exports = {
                     title: 'Guide',
                     path: '',
                     children: [
-                        ['', 'Introduction']
+                        {
+                            title: 'Introduction',
+                            path: ''
+                        }
                     ]
                 }
             ],
@@ -34,8 +37,9 @@ module.exports = {
                         ['', 'Introduction'],
                         {
                             title: 'Dynamic Forms',
-                            path: 'df/',
+                            path: 'df',
                             children: [
+                                ['df', 'Introduction'],
                                 ['df-question', 'Question'],
                                 ['df-question-type', 'Question Type'],
                                 {
