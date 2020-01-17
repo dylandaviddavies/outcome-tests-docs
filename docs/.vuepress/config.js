@@ -8,7 +8,7 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
             { text: 'Tests', link: '/tests/' },
-            { text: 'Data', link: '/data/' },
+            { text: 'Model', link: '/model/' },
             { text: 'Outcome', link: '/outcome/' }
         ],
         sidebar: {
@@ -25,10 +25,10 @@ module.exports = {
             '/outcome/': [
                 ''
             ],
-            '/data/': [
+            '/model/': [
                 {
                     collapsable: false,
-                    title: 'Data',
+                    title: 'Model',
                     path: '',
                     children: [
                         ['', 'Introduction'],
@@ -36,8 +36,8 @@ module.exports = {
                             title: 'Dynamic Forms',
                             path: 'df/',
                             children: [
-                                'df-question',
-                                'df-question-type',
+                                ['df-question', 'Question'],
+                                ['df-question-type', 'Question Type'],
                                 {
                                     title: 'Answer',
                                     path: 'df-answer/',

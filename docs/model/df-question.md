@@ -1,4 +1,4 @@
-# Question <Badge text="object" vertical="middle" />
+# Dynamic Form Question <Badge text="object" vertical="middle" />
 A question in a Dynamic Form.
 
 ## Attributes

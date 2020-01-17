@@ -1,4 +1,4 @@
-# Question Type <Badge text="string" vertical="middle" />
+# Dynamic Form Question Type <Badge text="string" vertical="middle" />
 The type of Dynamic Form Question.
 
 ## Options
