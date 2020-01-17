@@ -9,5 +9,6 @@
     "dev": "vuepress dev docs"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
