@@ -1,4 +1,4 @@
-# DfAllQuestionsTest
+# DfAllQuestionsTest <Badge text="test" vertical="middle" />
 
 ## Test Case
 Answering a dynamic form with all types of Dynamic Form Questions.
@@ -7,13 +7,14 @@ Answering a dynamic form with all types of Dynamic Form Questions.
 * A test module
 * A questionnaire in the **Dynamic Forms** test page that has questions of all types.
 
-## Attributes
+## Test Data
+### Attributes
 
 #### questionnaireId <Badge text="string" vertical="middle" />
 Toggles the occurred checkbox.
 
 #### answers <Badge text="array of Dynamic Form Answers" vertical="middle" />
-The [Dynamic Form Answers](../data/df-answer) for the Dynamic Form.
+The [Answers](../data/df-answer) for the Dynamic Form.
 
 ``` json
 {

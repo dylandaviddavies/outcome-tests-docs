@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/docs/.vuepress/dist/',
     title: "Outcome Automated Testing",
     description: "Documentation",
     themeConfig: {
@@ -6,14 +7,14 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
-            { text:  'Tests', link: '/tests/' },
-            { text:  'Data', link: '/data/' },
-            { text:  'Outcome', link: '/outcome/' }
+            { text: 'Tests', link: '/tests/' },
+            { text: 'Data', link: '/data/' },
+            { text: 'Outcome', link: '/outcome/' }
         ],
         sidebar: {
             '/guide/': [
-              ''
-            ],      
+                ''
+            ],
             '/outcome/': [
                 ''
             ],
@@ -22,7 +23,7 @@ module.exports = {
                     collapsable: false,
                     title: 'Data',
                     path: '',
-                    children:[
+                    children: [
                         ['', 'Introduction'],
                         {
                             title: 'Dynamic Forms',
@@ -33,7 +34,7 @@ module.exports = {
                                 {
                                     title: 'Answer',
                                     path: 'df-answer/',
-                                    children:[                                
+                                    children: [
                                         'df-text-answer',
                                         'df-large-text-answer',
                                         'df-boolean-answer',
@@ -64,11 +65,11 @@ module.exports = {
                     collapsable: false,
                     title: 'Tests',
                     path: '',
-                    children:[
+                    children: [
                         'DfAllQuestionsTest'
                     ]
                 }
             ]
-          }
+        }
     }
 }
