@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/docs/.vuepress/dist/',
+    base: '/outcome-tests-docs/',
     title: "Outcome Automated Testing",
     description: "Documentation",
     themeConfig: {
