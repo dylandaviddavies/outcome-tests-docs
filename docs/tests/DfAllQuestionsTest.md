@@ -13,7 +13,7 @@ Answering a **Dynamic Form** with all [Types](../model/df-question-type) of [Dyn
 #### questionnaireId <Badge text="string" vertical="middle" />
 The unique identifier of the questionnaire being answered.
 
-#### answers <Badge text="array of Dynamic Form Answers" vertical="middle" />
+#### answers <Badge text="array" vertical="middle" />
 The [Answers](../model/df-answer) for the Dynamic Form.
 
 ``` json

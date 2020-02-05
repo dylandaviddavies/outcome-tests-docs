@@ -5,7 +5,7 @@ The answer for a [MatrixSingleChoice](./df-question-type/#matrix-single-choice) 
 ### question [<Badge text="object" vertical="middle" />](./df-question)
 The [Dynamic Form Question](./df-question) being answered.
 
-### values <Badge text="array of strings" vertical="middle" />
+### values <Badge text="array" vertical="middle" />
 The values of the radio buttons to select for each row.
 
 ## Usage

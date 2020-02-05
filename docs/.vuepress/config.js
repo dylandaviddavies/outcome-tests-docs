@@ -1,3 +1,95 @@
+var guide = [
+    {
+        collapsable: false,
+        title: 'Guide',
+        path: '',
+        children: [
+            {
+                title: 'Introduction',
+                path: ''
+            }
+        ]
+    }
+];
+
+var outcome = [
+    ''
+];
+
+var tests = [
+    {
+        collapsable: false,
+        title: 'Tests',
+        path: '',
+        children: [
+            'DfAllQuestionsTest',
+            'ExpCreateOpportunityTest',
+            'GeCreateSimpleEventTest'
+        ]
+    }
+];
+
+var model = [
+    {
+        collapsable: false,
+        title: 'Model',
+        path: '',
+        children: [
+            ['', 'Introduction'],
+            {
+                title: 'Internationalization',
+                path: 'internationalization',
+                children: [
+                    ['internationalization', 'Introduction'],
+                    'translations'
+                ]
+            },
+            {
+                title: 'Dynamic Forms',
+                path: 'df',
+                children: [
+                    ['df', 'Introduction'],
+                    'df-question',
+                    'df-question-type',
+                    {
+                        title: 'Dynamic Form Answer',
+                        path: 'df-answer/',
+                        children: [
+                            'df-text-answer',
+                            'df-multilingual-text-answer',
+                            'df-large-text-answer',
+                            'df-multilingual-large-text-answer',
+                            'df-boolean-answer',
+                            'df-date-answer',
+                            'df-float-answer',
+                            'df-number-single-choice-answer',
+                            'df-number-text-answer',
+                            'df-matrix-single-choice-answer',
+                            'df-matrix-multi-choice-answer',
+                            'df-start-end-date-answer',
+                            'df-hyperlink-answer',
+                            'df-rating-answer',
+                            'df-time-commitment-answer',
+                            'df-single-choice-answer',
+                            'df-multi-choice-answer',
+                            'df-frequency-answer',
+                            'df-salary-answer',
+                            'df-site-visit-answer'
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+];
+
+var sidebar = {
+    '/guide/': guide,
+    '/outcome/': outcome,
+    '/tests/': tests,
+    '/model/': model
+};
+
 module.exports = {
     base: '/outcome-tests-docs/',
     title: "Outcome Automated Testing",
@@ -11,76 +103,6 @@ module.exports = {
             { text: 'Model', link: '/model/' },
             { text: 'Outcome', link: '/outcome/' }
         ],
-        sidebar: {
-            '/guide/': [
-                {
-                    collapsable: false,
-                    title: 'Guide',
-                    path: '',
-                    children: [
-                        {
-                            title: 'Introduction',
-                            path: ''
-                        }
-                    ]
-                }
-            ],
-            '/outcome/': [
-                ''
-            ],
-            '/model/': [
-                {
-                    collapsable: false,
-                    title: 'Model',
-                    path: '',
-                    children: [
-                        ['', 'Introduction'],
-                        {
-                            title: 'Dynamic Forms',
-                            path: 'df',
-                            children: [
-                                ['df', 'Introduction'],
-                                ['df-question', 'Question'],
-                                ['df-question-type', 'Question Type'],
-                                {
-                                    title: 'Answer',
-                                    path: 'df-answer/',
-                                    children: [
-                                        'df-text-answer',
-                                        'df-large-text-answer',
-                                        'df-boolean-answer',
-                                        'df-date-answer',
-                                        'df-float-answer',
-                                        'df-number-single-choice-answer',
-                                        'df-number-text-answer',
-                                        'df-matrix-single-choice-answer',
-                                        'df-matrix-multi-choice-answer',
-                                        'df-start-end-date-answer',
-                                        'df-hyperlink-answer',
-                                        'df-rating-answer',
-                                        'df-time-commitment-answer',
-                                        'df-single-choice-answer',
-                                        'df-multi-choice-answer',
-                                        'df-frequency-answer',
-                                        'df-salary-answer',
-                                        'df-site-visit-answer'
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            '/tests/': [
-                {
-                    collapsable: false,
-                    title: 'Tests',
-                    path: '',
-                    children: [
-                        'DfAllQuestionsTest'
-                    ]
-                }
-            ]
-        }
+        sidebar: sidebar
     }
 }

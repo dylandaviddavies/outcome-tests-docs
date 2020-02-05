@@ -3,10 +3,12 @@ The type of Dynamic Form Question.
 
 ## Options
 * Text
+* MultilingualText
 * MultiChoice
 * SingleChoice
 * Date
 * LargeText
+* MultilingualLargeText
 * SiteVisit
 * Boolean
 * NumberText
