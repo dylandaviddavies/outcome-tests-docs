@@ -3,10 +3,12 @@ The answer for a [Dynamic Form Question](./df-question).
 
 ## Types
 * [Text](./df-text-answer)
+* [MultilingualText](./df-multilingual-text-answer)
 * [Multi-Choice](./df-multi-choice-answer)
 * [Single-Choice](./df-single-choice-answer)
 * [Date](./df-date-answer)
 * [Large Text](./df-large-text-answer)
+* [MultilingualText](./df-multilingual-large-text-answer)
 * [Site-Visit](./df-site-visit-answer)
 * [Boolean](./df-boolean-answer)
 * [Number Text](./df-number-text-answer)
