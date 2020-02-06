@@ -5,12 +5,48 @@ Create a simple event.
 
 ## Requirements
 * A global event module.
+* The portal staff account needs to be an event admin.
 
 ## Test Data
 ### Attributes
 
-#### status <Badge text="string" vertical="middle" />
-The status to select from the dropdown.
+#### event <Badge text="object" vertical="middle" />
+* **status** <Badge text="string" vertical="middle" />
+ The status to select from the dropdown.
+* **category** <Badge text="string" vertical="middle" />
+ The category to select from the dropdown.
+* **title** <Badge text="object" vertical="middle" />
+ The multilingual title. See [Translations](../model/translations).
+* **description** <Badge text="object" vertical="middle" />
+ The multilingual description. See [Translations](../model/translations).
+* **presenter** <Badge text="string" vertical="middle" />
+* **location** <Badge text="string" vertical="middle" />
+ The location to select from the dropdown.
+* **locationOther** <Badge text="string" vertical="middle" />
+ A location not in the dropdown.
+* **maxRegistrations** <Badge text="number" vertical="middle" />
+ The maximum number of registrations.
+* **ecommerceOrderPrefix** <Badge text="string" vertical="middle" />
+ The ecommerce order prefix.
+
+#### registrationType <Badge text="object" vertical="middle" />
+* **name** <Badge text="object" vertical="middle" />
+ The multilingual name. See [Translations](../model/translations).
+* **description** <Badge text="object" vertical="middle" />
+ The multilingual description. See [Translations](../model/translations).
+* **capacity** <Badge text="number" vertical="middle" />
+ The capacity.
+* **fee** <Badge text="object" vertical="middle" />
+  * **price** <Badge text="number" vertical="middle" />
+   The price.
+  * **type** <Badge text="string" vertical="middle" />
+   The [Fee Type](../model/ge-reg-type-option-fee-type) to pick.
+  * **label** <Badge text="string" vertical="middle" />
+   The label.
+  * **min** <Badge text="number" vertical="middle" />
+   The minimum number that must be bought per person.
+  * **max** <Badge text="number" vertical="middle" />
+   The maximum number that can be bought per person.
 
 ``` json
 {
@@ -18,12 +54,12 @@ The status to select from the dropdown.
         "status": "Approved",
         "category": "Drop-in Hours",
         "title": {
-        "en-CA": "Introduction to Shopify",
-        "fr-CA": "Introduction ? Shopify"
+            "en-CA": "Introduction to Shopify",
+            "fr-CA": "Introduction ? Shopify"
         },
         "description": {
-        "en-CA": "Tobias Lütke will be teaching you how to build your own Shopify site from scratch.",
-        "fr-CA": "Tobias Lütke vous apprendra ? créer votre propre site Shopify ? partir de zéro."
+            "en-CA": "Tobias Lütke will be teaching you how to build your own Shopify site from scratch.",
+            "fr-CA": "Tobias Lütke vous apprendra ? créer votre propre site Shopify ? partir de zéro."
         },
         "presenter": "Tobias Lütke",
         "location": "104 King St, 3rd Floor Boardroom",
@@ -33,24 +69,24 @@ The status to select from the dropdown.
     },
     "registrationType": {
         "name": {
-        "en-CA": "Ticket",
-        "fr-CA": "Billet"
+            "en-CA": "Ticket",
+            "fr-CA": "Billet"
         },
         "description": {
-        "en-CA": "A ticket to the presentation.",
-        "fr-CA": "Un ticket pour la présentation."
+            "en-CA": "A ticket to the presentation.",
+            "fr-CA": "Un ticket pour la présentation."
         },
         "capacity": "10",
         "publicAggregatorModule": "Event Aggregator"
     },
     "registrationTypeOption": {
         "label": {
-        "en-CA": "Free",
-        "fr-CA": "Gratuit"
+            "en-CA": "Free",
+            "fr-CA": "Gratuit"
         },
         "description": {
-        "en-CA": "Free admission.",
-        "fr-CA": "Entrée libre."
+            "en-CA": "Free admission.",
+            "fr-CA": "Entrée libre."
         },
         "capacity": "10",
         "fee": {

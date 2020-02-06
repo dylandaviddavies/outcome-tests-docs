@@ -5,6 +5,7 @@ Create a simple event with registration enabled.
 
 ## Requirements
 * A global event module.
+* The portal staff account needs to be an event admin.
 
 ## Test Data
 ### Attributes

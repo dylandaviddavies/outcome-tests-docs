@@ -5,6 +5,7 @@ Creating an experiential opportunity.
 
 ## Requirements
 * An experiential education module.
+* The portal staff account needs to be an experiential admin.
 
 ## Test Data
 ### Attributes
@@ -53,7 +54,7 @@ Any additional [Answers](../model/df-answer) for the Dynamic Form.
             "type": "Boolean",
         },
         "value": true
-    }
+    },
     "opportunityAnswers": [
         {
             "question": {

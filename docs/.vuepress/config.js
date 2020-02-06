@@ -4,10 +4,8 @@ var guide = [
         title: 'Guide',
         path: '',
         children: [
-            {
-                title: 'Introduction',
-                path: ''
-            }
+            ['', 'Introduction'],
+            'azure'
         ]
     }
 ];
@@ -22,9 +20,27 @@ var tests = [
         title: 'Tests',
         path: '',
         children: [
+            'AlumniLoginTest',
             'DfAllQuestionsTest',
+            'EmployerLoginTest',
             'ExpCreateOpportunityTest',
-            'GeCreateSimpleEventTest'
+            'ExpCreateTermCourseTest',
+            'GeCreateAdvancedEventTest',
+            'GeCreateRegisterableSimpleEventTest',
+            'GeCreateSimpleEventTest',
+            'GeCreateSimpleMultidayEventTest',
+            'NpStudentJobKeywordSearchFilterTest',
+            'PortalStaffDashboardAddScheduledOrgTaskTest',
+            'PortalStaffDashboardAddUnscheduledOrgTaskTest',
+            'PortalStaffLoginTest',
+            'PortalUserLoginTest',
+            'RegisterApproveEmployerTest',
+            'RegisterEmployerCopyDivToContactTest',
+            'RegisterEmployerCopyOrgToDivTest',
+            'SaCreateAvailableSlotTest',
+            'SaCreateOpenSlotTest',
+            'StaffFacultyLoginTest',
+            'StudentLoginTest'
         ]
     }
 ];
@@ -45,6 +61,41 @@ var model = [
                 ]
             },
             {
+                title: 'User Registration Forms',
+                path: 'acrm-forms',
+                children: [
+                    ['acrm-forms', 'Introduction'],
+                    'acrm-question',
+                    'acrm-question-type',
+                    {
+                        title: 'User Registration Form Answer',
+                        path: 'acrm-answer/',
+                        children: [
+                            ['acrm-answer', 'Introduction'],
+                            'acrm-text-answer',
+                            'acrm-large-text-answer',
+                            'acrm-date-answer',
+                            'acrm-datetime-answer',
+                            'acrm-time-answer',
+                            'acrm-number-answer',
+                            'acrm-email-signature-answer',
+                            'acrm-email-opt-in-answer',
+                            'acrm-email-campaign-opt-in-answer',
+                            'acrm-multi-choice-answer',
+                            'acrm-single-choice-answer'
+                        ]
+                    }
+                ]
+            },
+            {
+                title: 'Events',
+                path: 'ge',
+                children: [
+                    ['ge', 'Introduction'],
+                    'ge-reg-type-option-fee-type'
+                ]
+            },
+            {
                 title: 'Dynamic Forms',
                 path: 'df',
                 children: [
@@ -55,6 +106,7 @@ var model = [
                         title: 'Dynamic Form Answer',
                         path: 'df-answer/',
                         children: [
+                            ['df-answer', 'Introduction'],
                             'df-text-answer',
                             'df-multilingual-text-answer',
                             'df-large-text-answer',

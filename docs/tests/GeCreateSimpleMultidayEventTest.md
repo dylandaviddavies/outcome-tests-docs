@@ -1,7 +1,7 @@
-# GeCreateSimpleEventTest <Badge text="test" vertical="middle" />
+# GeCreateSimpleMultidayEventTest <Badge text="test" vertical="middle" />
 
 ## Test Case
-Create a simple event.
+Create a simple multi-day event.
 
 ## Requirements
 * A global event module.
@@ -35,20 +35,22 @@ The location to select from the dropdown.
 A location that isn't in the location dropdown.
 
 ``` json
-{
-    "status": "Approved",
-    "category": "Drop-in Hours",
-    "title": {
-      "en-CA": "Introduction to Shopify",
-      "fr-CA": "Introduction ? Shopify"
-    },
-    "description": {
-      "en-CA": "Description",
-      "fr-CA": "Description FR"
-    },
-    "presenter": "Otto von Bismarck",
-    "location": "104 King St, 3rd Floor Boardroom",
-    "locationOther": null
-}
+[
+    {
+        "status": "Approved",
+        "category": "Drop-in Hours",
+        "title": {
+        "en-CA": "Introduction to Shopify",
+        "fr-CA": "Introduction ? Shopify"
+        },
+        "description": {
+        "en-CA": "Description",
+        "fr-CA": "Description FR"
+        },
+        "presenter": "Otto von Bismarck",
+        "location": "104 King St, 3rd Floor Boardroom",
+        "locationOther": null
+    }
+]
 ```
 
