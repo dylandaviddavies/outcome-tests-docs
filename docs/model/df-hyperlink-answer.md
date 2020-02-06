@@ -5,10 +5,10 @@ The answer for a [Hyperlink](./df-question-type/#hyperlink) type Dynamic Form Qu
 ### question <Badge text="object" vertical="middle" />
 The [Dynamic Form Question](./df-question) being answered.
 
-### url <Badge text="object" vertical="middle" />
+### url <Badge text="string" vertical="middle" />
 The url of the link.
 
-### text <Badge text="object" vertical="middle" />
+### text <Badge text="string" vertical="middle" />
 The link text.
 
 
