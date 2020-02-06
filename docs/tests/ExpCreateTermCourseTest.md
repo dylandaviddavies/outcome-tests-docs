@@ -1,4 +1,4 @@
-# ExpCreateOpportunityTest <Badge text="test" vertical="middle" />
+# ExpCreateTermCourseTest <Badge text="test" vertical="middle" />
 
 ## Test Case
 Creating an experiential term course.
