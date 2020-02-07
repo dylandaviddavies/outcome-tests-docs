@@ -16,8 +16,8 @@ The [Translations](./translations) for the answer.
         "type": "MultiChoice"
     },
     "values": {
-        "en-CA": "Hello, World",
-        "fr-CA": "Bonjour le monde"
+        "en": "Hello, World",
+        "fr": "Bonjour le monde"
     }
 }
 ```

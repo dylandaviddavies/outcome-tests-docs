@@ -12,8 +12,8 @@ The translation text.
 ## Usage
 ``` json
 {
-    "en-CA": "Hello, World",
-    "fr-CA": "Bonjour le monde",   
-    "es-MX": "Hola Mundo"
+    "en": "Hello, World",
+    "fr": "Bonjour le monde",   
+    "es": "Hola Mundo"
 }
 ```

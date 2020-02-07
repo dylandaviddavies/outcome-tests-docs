@@ -42,14 +42,14 @@ The maximum number of registrations.
     "status": "Approved",
     "category": "Drop-in Hours",
     "title": {
-        "en-CA": "Introduction to Shopify",
-        "fr-CA": "Introduction ? Shopify"
+        "en": "Introduction to Shopify",
+        "fr": "Introduction ? Shopify"
     },
     "description": {
-      "en-CA": "Tobias Lütke will be teaching you how to build your own Shopify site from scratch.",
-      "fr-CA": "Tobias Lütke vous apprendra ? créer votre propre site Shopify ? partir de zéro."
+      "en": "Tobias Lï¿½tke will be teaching you how to build your own Shopify site from scratch.",
+      "fr": "Tobias Lï¿½tke vous apprendra ? crï¿½er votre propre site Shopify ? partir de zï¿½ro."
     },
-    "presenter": "Tobias Lütke",
+    "presenter": "Tobias Lï¿½tke",
     "location": "104 King St, 3rd Floor Boardroom",
     "locationOther": null,
     "maxRegistrations": "10"

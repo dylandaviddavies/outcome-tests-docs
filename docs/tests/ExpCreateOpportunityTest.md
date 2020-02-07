@@ -35,8 +35,8 @@ Any additional [Answers](../model/df-answer) for the Dynamic Form.
             "type": "MultilingualText",
         },
         "values": {
-            "en-CA": "Hello, World",
-            "fr-CA": "Bonjour le monde"
+            "en": "Hello, World",
+            "fr": "Bonjour le monde"
         }
     },
     "synopsis": {
@@ -45,8 +45,8 @@ Any additional [Answers](../model/df-answer) for the Dynamic Form.
             "type": "MultilingualLargeText",
         },
         "values": {
-            "en-CA": "Hello, World",
-            "fr-CA": "Bonjour le monde"
+            "en": "Hello, World",
+            "fr": "Bonjour le monde"
         }
     },
     "opportunityAnswers": [

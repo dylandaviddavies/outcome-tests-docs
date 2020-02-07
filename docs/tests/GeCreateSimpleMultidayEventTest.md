@@ -40,12 +40,12 @@ A location that isn't in the location dropdown.
         "status": "Approved",
         "category": "Drop-in Hours",
         "title": {
-        "en-CA": "Introduction to Shopify",
-        "fr-CA": "Introduction ? Shopify"
+        "en": "Introduction to Shopify",
+        "fr": "Introduction ? Shopify"
         },
         "description": {
-        "en-CA": "Description",
-        "fr-CA": "Description FR"
+        "en": "Description",
+        "fr": "Description FR"
         },
         "presenter": "Otto von Bismarck",
         "location": "104 King St, 3rd Floor Boardroom",

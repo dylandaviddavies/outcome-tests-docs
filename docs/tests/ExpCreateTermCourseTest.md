@@ -48,22 +48,22 @@ The ID of the experience type we want to add to the term course.
 [
   {
     "name": {
-      "en-CA": "Introduction to Networking",
-      "fr-CA": "Introduction au réseautage"
+      "en": "Introduction to Networking",
+      "fr": "Introduction au rï¿½seautage"
     },
     "code": {
-      "en-CA": "NTWRK",
-      "fr-CA": "NTWRK"
+      "en": "NTWRK",
+      "fr": "NTWRK"
     },
     "section": {
-      "en-CA": "All",
-      "fr-CA": "Tout"
+      "en": "All",
+      "fr": "Tout"
     },
     "academic": true,
     "term": "2018 - Fall",
     "description": {
-      "en-CA": "In this course you'll learn basic networking fundamentals.",
-      "fr-CA": "Dans ce cours, vous apprendrez les principes de base du réseautage."
+      "en": "In this course you'll learn basic networking fundamentals.",
+      "fr": "Dans ce cours, vous apprendrez les principes de base du rï¿½seautage."
     },
     "website": "https://www.google.ca/",
     "contactEmail": "example@example.com",

@@ -54,14 +54,14 @@ Create a simple event.
         "status": "Approved",
         "category": "Drop-in Hours",
         "title": {
-            "en-CA": "Introduction to Shopify",
-            "fr-CA": "Introduction ? Shopify"
+            "en": "Introduction to Shopify",
+            "fr": "Introduction ? Shopify"
         },
         "description": {
-            "en-CA": "Tobias Lütke will be teaching you how to build your own Shopify site from scratch.",
-            "fr-CA": "Tobias Lütke vous apprendra ? créer votre propre site Shopify ? partir de zéro."
+            "en": "Tobias Lï¿½tke will be teaching you how to build your own Shopify site from scratch.",
+            "fr": "Tobias Lï¿½tke vous apprendra ? crï¿½er votre propre site Shopify ? partir de zï¿½ro."
         },
-        "presenter": "Tobias Lütke",
+        "presenter": "Tobias Lï¿½tke",
         "location": "104 King St, 3rd Floor Boardroom",
         "locationOther": null,
         "maxRegistrations": "10",
@@ -69,24 +69,24 @@ Create a simple event.
     },
     "registrationType": {
         "name": {
-            "en-CA": "Ticket",
-            "fr-CA": "Billet"
+            "en": "Ticket",
+            "fr": "Billet"
         },
         "description": {
-            "en-CA": "A ticket to the presentation.",
-            "fr-CA": "Un ticket pour la présentation."
+            "en": "A ticket to the presentation.",
+            "fr": "Un ticket pour la prï¿½sentation."
         },
         "capacity": "10",
         "publicAggregatorModule": "Event Aggregator"
     },
     "registrationTypeOption": {
         "label": {
-            "en-CA": "Free",
-            "fr-CA": "Gratuit"
+            "en": "Free",
+            "fr": "Gratuit"
         },
         "description": {
-            "en-CA": "Free admission.",
-            "fr-CA": "Entrée libre."
+            "en": "Free admission.",
+            "fr": "Entrï¿½e libre."
         },
         "capacity": "10",
         "fee": {

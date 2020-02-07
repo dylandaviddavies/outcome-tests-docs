@@ -39,8 +39,8 @@ The details of the task. See [Translations](../model/translations).
     "priority": "High",
     "status": "In Progress",
     "details": {
-      "en-CA": "Hello, world how are you?!",
-      "fr-CA": "Bonjour, le monde comment vas tu"
+      "en": "Hello, world how are you?!",
+      "fr": "Bonjour, le monde comment vas tu"
     }
   }
 ]
