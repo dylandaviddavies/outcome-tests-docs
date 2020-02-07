@@ -11,19 +11,10 @@ Creating an experiential opportunity.
 ### Attributes
 
 #### expType <Badge text="string" vertical="middle" />
-The name of the experience type to select from the dropdown.
+The Dynamic Form Answer of the experience type to select from the dropdown.
 
 #### numberOfPositions <Badge text="string" vertical="middle" />
 The number of positions.
-
-#### goLiveDate <Badge text="string" vertical="middle" />
-The go live date. **Date Format**: [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
-
-#### openDate <Badge text="string" vertical="middle" />
-The open date for applications/interests. **Date Format**: [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
-
-#### expiryDate <Badge text="string" vertical="middle" />
-The expiry date. **Date Format**: [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601).
 
 #### name <Badge text="object" vertical="middle" />
 The [Answer](../model/df-answer) for the opportunity name question in the Dynamic Form.
@@ -51,9 +42,9 @@ Any additional [Answers](../model/df-answer) for the Dynamic Form.
     "synopsis": {
         "question": {
             "id": "82",
-            "type": "Boolean",
+            "type": "LargeText",
         },
-        "value": true
+        "value": "Hellooo, world"
     },
     "opportunityAnswers": [
         {
