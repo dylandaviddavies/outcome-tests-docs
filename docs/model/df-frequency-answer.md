@@ -2,7 +2,7 @@
 The answer for a [Frequency](./df-question-type/#frequency) type Dynamic Form Question
 
 ## Attributes
-### question [<Badge text="object" vertical="middle" />](./df-question)
+### question <Badge text="object" vertical="middle"/>
 The [Dynamic Form Question](./df-question) being answered.
 
 ### x <Badge text="string" vertical="middle" />

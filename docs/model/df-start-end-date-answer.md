@@ -2,7 +2,7 @@
 The answer for a [Start & End Date](./df-question-type/#start-end) type Dynamic Form Question
 
 ## Attributes
-### question [<Badge text="object" vertical="middle" />](./df-question)
+### question <Badge text="object" vertical="middle"/>
 The [Dynamic Form Question](./df-question) being answered.
 
 ### start <Badge text="string" vertical="middle" />

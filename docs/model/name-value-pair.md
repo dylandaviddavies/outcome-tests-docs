@@ -12,8 +12,8 @@ The value. Typically used to interact with something, such as selecting a checkb
 ## Usage
 ``` json
 {
-    "search": "101",
-    "label": "Kojima Hideo"
+    "name": "Kojima Hideo",
+    "value": "101"
 }
 ```
 

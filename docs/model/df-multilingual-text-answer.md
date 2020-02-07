@@ -2,7 +2,7 @@
 The answer for a [MultilingualText](./df-question-type/#multilingual-text) type Dynamic Form Question
 
 ## Attributes
-### question [<Badge text="object" vertical="middle" />](./df-question)
+### question <Badge text="object" vertical="middle"/>
 The [Dynamic Form Question](./df-question) being answered.
 
 ### values <Badge text="object" vertical="middle" />

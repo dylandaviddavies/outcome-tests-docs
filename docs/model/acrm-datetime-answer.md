@@ -2,7 +2,7 @@
 The answer for a [DateTime](./acrm-question-type/#date) type User Registration Form Question.
 
 ## Attributes
-### question [<Badge text="object" vertical="middle" />]
+### question <Badge text="object" vertical="middle" />
 The [User Registration Form Question](./acrm-question) being answered.
 
 ### value <Badge text="string" vertical="middle" />

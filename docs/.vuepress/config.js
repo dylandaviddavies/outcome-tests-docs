@@ -29,6 +29,7 @@ var tests = [
             'GeCreateRegisterableSimpleEventTest',
             'GeCreateSimpleEventTest',
             'GeCreateSimpleMultidayEventTest',
+            'NpCreateJobTest',
             'NpStudentJobKeywordSearchFilterTest',
             'PortalStaffDashboardAddScheduledOrgTaskTest',
             'PortalStaffDashboardAddUnscheduledOrgTaskTest',
@@ -52,12 +53,44 @@ var model = [
         path: '',
         children: [
             ['', 'Introduction'],
+            'name-value-pair',
             {
                 title: 'Internationalization',
                 path: 'internationalization',
                 children: [
                     ['internationalization', 'Introduction'],
                     'translations'
+                ]
+            },
+            {
+                title: 'Events',
+                path: 'ge',
+                children: [
+                    ['ge', 'Introduction'],
+                    'ge-reg-type-option-fee-type'
+                ]
+            },
+            {
+                title: 'Job Forms',
+                path: 'np-forms',
+                children: [
+                    ['np-forms', 'Introduction'],
+                    'np-question',
+                    'np-question-type',
+                    {
+                        title: 'Job Form Answer',
+                        path: 'np-answer/',
+                        children: [
+                            ['np-answer', 'Introduction'],
+                            'np-text-answer',
+                            'np-large-text-answer',
+                            'np-single-choice-dropdown-answer',
+                            'np-single-choice-radio-answer',
+                            'np-multi-choice-answer',
+                            'np-date-answer',
+                            'np-number-answer'
+                        ]
+                    }
                 ]
             },
             {
@@ -85,14 +118,6 @@ var model = [
                             'acrm-single-choice-answer'
                         ]
                     }
-                ]
-            },
-            {
-                title: 'Events',
-                path: 'ge',
-                children: [
-                    ['ge', 'Introduction'],
-                    'ge-reg-type-option-fee-type'
                 ]
             },
             {

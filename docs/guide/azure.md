@@ -24,12 +24,12 @@ Select ***windows-2019*** for your agent pool specification.
 ## Tasks
 ### Copy .runsettings
 Add a new ***Copy Files*** task with the following settings:
-| Setting          | Value                                                         |
-| ---------------- | ------------------------------------------------------------- |
-| *Source Folder*  | $(System.DefaultWorkingDirectory)/_Resources/drop/RunSettings |
-| *Contents*       | **                                                            |
-| *Target Folder* | d:/a/r1/a/_Automated Testing App/drop/                         |
-| *Overwrite*     | Checked                                                        |  
+| Setting          | Value                                                          |
+| ---------------- | -------------------------------------------------------------- |
+| *Source Folder*  | $(System.DefaultWorkingDirectory)/_Resources/drop/RunSettings  |
+| *Contents*       | **                                                             |
+| *Target Folder*  | d:/a/r1/a/_Automated Testing App/drop/                         |
+| *Overwrite*      | Checked                                                        |  
 
 ### Copy TestData
 Add a new ***Copy Files*** task with the following settings:
@@ -60,7 +60,7 @@ Add a new ***.NET Core*** task with the following settings:
 | *Continue on error*  | Checked                                                                                             |
 
 ::: tip
-You can customize ***Arguments*** to add additional settings or filtering. See [here](https://docs.microsoft.com/en-us/visualstudio/test/vstest-console-options?view=vs-2019).
+You can customize ***Arguments*** to add additional settings or filters. See [here](https://docs.microsoft.com/en-us/visualstudio/test/vstest-console-options?view=vs-2019).
 :::
 
 ### Publish Test Results

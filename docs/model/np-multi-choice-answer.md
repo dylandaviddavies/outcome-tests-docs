@@ -1,9 +1,9 @@
 # Multi-Choice Answer <Badge text="object" vertical="middle" />
-The answer for a [MultiChoice](./df-question-type/#multi-choice) type Dynamic Form Question
+The answer for a [MultiChoice](./np-question-type/#multi-choice) type [Job Form Question](./np-question).
 
 ## Attributes
 ### question <Badge text="object" vertical="middle"/>
-The [Dynamic Form Question](./df-question) being answered.
+The [Job Form Question](./np-question) being answered.
 
 ### values <Badge text="array" vertical="middle" />
 The values of the checkboxes to select.
@@ -16,8 +16,8 @@ The values of the checkboxes to select.
         "type": "MultiChoice"
     },
     "values": [
-        "B|B",
-        "D|D"
+        "B",
+        "D"
     ]
 }
 ```

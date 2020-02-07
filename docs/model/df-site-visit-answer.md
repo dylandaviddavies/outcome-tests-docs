@@ -2,7 +2,7 @@
 The answer for a [Single-Choice](./df-question-type/#single-choice) type Dynamic Form Question
 
 ## Attributes
-### question [<Badge text="object" vertical="middle" />](./df-question)
+### question <Badge text="object" vertical="middle"/>
 The [Dynamic Form Question](./df-question) being answered.
 
 ### occurred <Badge text="boolean" vertical="middle" />

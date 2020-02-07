@@ -2,7 +2,7 @@
 The answer for a [MultiChoice](./df-question-type/#matrix-multi-choice) type Dynamic Form Question
 
 ## Attributes
-### question [<Badge text="object" vertical="middle" />](./df-question)
+### question <Badge text="object" vertical="middle"/>
 The [Dynamic Form Question](./df-question) being answered.
 
 ### values <Badge text="array" vertical="middle" />
