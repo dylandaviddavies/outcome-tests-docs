@@ -9,8 +9,8 @@ Register and approve a new employer.
 ## Test Data
 ### Attributes
 
-#### usernameQuestionId <Badge text="string" vertical="middle" />
-The ID of the user registration username question.
+#### usernameAnswer <Badge text="string" vertical="middle" />
+The [Answer](../model/acrm-answer) for the username question in the user form.
 
 #### organizationAnswers <Badge text="array" vertical="middle" />
 The [Answers](../model/df-answer) for the organization form.
@@ -24,7 +24,13 @@ The [Answers](../model/acrm-answer) for the user form.
 ``` json
 [
   {
-    "usernameQuestionId": "44",
+    "usernameAnswer": {
+      "question": {
+        "id": "",
+        "type": "Text"
+      },
+      "value": ""
+    },
     "organizationAnswers": [
       {
         "question": {
@@ -46,10 +52,18 @@ The [Answers](../model/acrm-answer) for the user form.
     "userAnswers": [
       {
         "question": {
+          "id": "43",
+          "type": "Text"
+        },
+        "value": "myPassword",
+        "validate": false
+      },
+      {
+        "question": {
           "id": "44",
           "type": "Text"
         },
-        "value": "myUsername"
+        "value": "Hello, World"
       }
     ]
   }
