@@ -22,3 +22,29 @@ The answer for a [Dynamic Form Question](./df-question).
 * [Frequency](./df-frequency-answer)
 * [Time Commitment](./df-time-commitment-answer)
 * [Hyperlink](./df-hyperlink-answer)
+
+
+## Attributes
+
+### validate <Badge text="boolean" vertical="middle" />
+Determines whether or not to validate the answer.
+::: tip
+Use this property for values that won't show up in the UI again. *i.e passwords*.
+:::
+
+### automate <Badge text="boolean" vertical="middle" /> <Badge type="warning" text="development tool" vertical="middle" />
+Determines whether or not to generate a random answer.
+::: warning
+Automation should only be used during development.
+:::
+
+``` json
+{
+    "question": {
+        "id": "256",
+        "type": "Text"
+    },
+    "validate": false,
+    "automate": true
+}
+```
