@@ -16,9 +16,6 @@ The Dynamic Form Answer of the experience type to select from the dropdown.
 #### numberOfPositions <Badge text="string" vertical="middle" />
 The number of positions.
 
-#### synopsisQuestionId <Badge text="string" vertical="middle" />
-The [Question](../model/df-question) ID for the opportunity synopsis question in the Dynamic Form.
-
 #### name <Badge text="object" vertical="middle" />
 The [Answer](../model/df-answer) for the opportunity name question in the Dynamic Form.
 
@@ -32,7 +29,6 @@ Any additional [Answers](../model/df-answer) for the Dynamic Form.
 {
     "expType": "Practicum",
     "numberOfPositions": "5",
-    "synopsisQuestionId": "82",
     "name": {
         "question": {
             "id": "81",
