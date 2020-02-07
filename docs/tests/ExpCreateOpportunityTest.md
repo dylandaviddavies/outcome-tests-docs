@@ -29,9 +29,6 @@ Any additional [Answers](../model/df-answer) for the Dynamic Form.
 {
     "expType": "Practicum",
     "numberOfPositions": "5",
-    "goLiveDate": "2019-1-22T08:30:00-05:00",
-    "openDate": "2019-1-22T08:30:00-05:00",
-    "expiryDate": "2019-2-22T08:30:00-05:00",
     "name": {
         "question": {
             "id": "81",
