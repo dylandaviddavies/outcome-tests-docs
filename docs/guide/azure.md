@@ -1,16 +1,16 @@
 # Azure Setup
 
+## Automated Testing App Pipeline
+Go into Azure and import [this](https://github.com/mikerotenberg/outcome-tests/blob/master/Automated%20Testing%20App.json) pipeline. 
+
+Next, select ***windows-2019*** for the agent pool specification.
+
 ## Resources Pipeline
 Use [this template repository](https://github.com/mikerotenberg/outcome-tests-resources) to create a new resource repository for your site.
 
 Once you've created your resource repository, edit the ***.runsettings*** file in the ***RunSettings*** folder and edit the test data files in the TestData folder to fit your site. Refer to the [Tests](../tests/) guide for what each test expects in its data file. 
 
-Once done, go into Azure and create a new pipeline called *Resources* using the GitHub repository you created using the template. Make sure to select the existing *azure-pipelines.yml* file as your configuration file of choice.
-
-## Automated Testing App Pipeline
-Go into Azure and import [this](https://github.com/mikerotenberg/outcome-tests/blob/master/Automated%20Testing%20App.json) pipeline. 
-
-Next, select ***windows-2019*** for the agent pool specification.
+Once done, go into Azure and create a new pipeline called *Automated Testing App Resources* using the GitHub repository you created using the template. Make sure to select the existing *azure-pipelines.yml* file as your configuration file of choice.
 
 ## Release Pipeline
 Create a release pipeline and add the ***Resources Pipeline*** and ***Automated Testing App Pipeline*** as artifacts. 
@@ -26,7 +26,7 @@ Select ***windows-2019*** for your agent pool specification.
 Add a new ***Copy Files*** task with the following settings:
 | Setting          | Value                                                          |
 | ---------------- | -------------------------------------------------------------- |
-| *Source Folder*  | $(System.DefaultWorkingDirectory)/_Resources/drop/RunSettings  |
+| *Source Folder*  | $(System.DefaultWorkingDirectory)/_Automated Testing App Resources/drop/RunSettings  |
 | *Contents*       | **                                                             |
 | *Target Folder*  | d:/a/r1/a/_Automated Testing App/drop/                         |
 | *Overwrite*      | Checked                                                        |  
@@ -35,7 +35,7 @@ Add a new ***Copy Files*** task with the following settings:
 Add a new ***Copy Files*** task with the following settings:
 | Setting         | Value                                                      |
 | --------------- | ---------------------------------------------------------- |
-| *Source Folder* | $(System.DefaultWorkingDirectory)/_Resources/drop/TestData |
+| *Source Folder* | $(System.DefaultWorkingDirectory)/_Automated Testing App Resources/drop/TestData |
 | *Contents*      | **                                                         |
 | *Target Folder* | d:/a/r1/a/_Automated Testing App/drop/TestData             |
 | *Overwrite*     | Checked                                                    |  
@@ -44,7 +44,7 @@ Add a new ***Copy Files*** task with the following settings:
 Add a new ***Copy Files*** task with the following settings:
 | Setting         | Value                                                     |
 | --------------- | --------------------------------------------------------- |
-| *Source Folder* | $(System.DefaultWorkingDirectory)/_Resources/drop/Drivers |
+| *Source Folder* | $(System.DefaultWorkingDirectory)/_Automated Testing App Resources/drop/Drivers |
 | *Contents*      | **                                                        |
 | *Target Folder* | d:/a/r1/a/_Automated Testing App/drop/                    |
 | *Overwrite*     | Checked                                                   |        
