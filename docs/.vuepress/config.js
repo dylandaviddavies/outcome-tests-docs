@@ -5,6 +5,7 @@ var guide = [
         path: '',
         children: [
             ['', 'Introduction'],
+            'runsettings',
             'azure'
         ]
     }
