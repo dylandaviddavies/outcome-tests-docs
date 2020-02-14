@@ -27,8 +27,11 @@ The priority of the task.
 #### status <Badge text="string" vertical="middle" />
 The status of the task.
 
-#### status <Badge text="string" vertical="middle" />
+#### details <Badge text="string" vertical="middle" />
 The details of the task. See [Translations](../model/translations).
+
+#### customFormAnswers <Badge text="array" vertical="middle" />
+The answers for the custom form. See [DfAnswer](../model/df-answer).
 
 ``` json
 [
@@ -41,7 +44,14 @@ The details of the task. See [Translations](../model/translations).
     "details": {
       "en": "Hello, world how are you?!",
       "fr": "Bonjour, le monde comment vas tu"
-    }
+    },
+    "customFormAnswers": [
+      "question": {
+        "id": "1553",
+        "type": "Text"
+      },
+      "value": "Hello, World"
+    ]
   }
 ]
 ```
