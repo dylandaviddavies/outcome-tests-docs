@@ -41,11 +41,11 @@ A location that isn't in the location dropdown.
         "category": "Drop-in Hours",
         "title": {
         "en": "Introduction to Shopify",
-        "fr": "Introduction ? Shopify"
+        "fr": "Introduction à Shopify"
         },
         "description": {
         "en": "Description",
-        "fr": "Description FR"
+        "fr": "La description"
         },
         "presenter": "Otto von Bismarck",
         "location": "104 King St, 3rd Floor Boardroom",

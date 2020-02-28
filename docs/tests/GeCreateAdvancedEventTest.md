@@ -49,54 +49,56 @@ Create a simple event.
    The maximum number that can be bought per person.
 
 ``` json
-{
-    "event": {
-        "status": "Approved",
-        "category": "Drop-in Hours",
-        "title": {
-            "en": "Introduction to Shopify",
-            "fr": "Introduction ? Shopify"
+[
+    {
+        "event": {
+            "status": "Approved",
+            "category": "Drop-in Hours",
+            "title": {
+                "en": "Introduction to Shopify",
+                "fr": "Introduction à Shopify"
+            },
+            "description": {
+                "en": "Tobias Lütke will be teaching you how to build your own Shopify site from scratch.",
+                "fr": "Tobias Lütke vous apprendra comment créer votre propre site Shopify à partir de zéro."
+            },
+            "presenter": "Tobias Lütke",
+            "location": "104 King St, 3rd Floor Boardroom",
+            "locationOther": null,
+            "maxRegistrations": "10",
+            "ecommerceOrderPrefix":  "shopify"
         },
-        "description": {
-            "en": "Tobias Lï¿½tke will be teaching you how to build your own Shopify site from scratch.",
-            "fr": "Tobias Lï¿½tke vous apprendra ? crï¿½er votre propre site Shopify ? partir de zï¿½ro."
+        "registrationType": {
+            "name": {
+                "en": "Ticket",
+                "fr": "Billet"
+            },
+            "description": {
+                "en": "A ticket to the presentation.",
+                "fr": "Un ticket pour la présentation."
+            },
+            "capacity": "10",
+            "publicAggregatorModule": "Event Aggregator"
         },
-        "presenter": "Tobias Lï¿½tke",
-        "location": "104 King St, 3rd Floor Boardroom",
-        "locationOther": null,
-        "maxRegistrations": "10",
-        "ecommerceOrderPrefix":  "shopify"
-    },
-    "registrationType": {
-        "name": {
-            "en": "Ticket",
-            "fr": "Billet"
-        },
-        "description": {
-            "en": "A ticket to the presentation.",
-            "fr": "Un ticket pour la prï¿½sentation."
-        },
-        "capacity": "10",
-        "publicAggregatorModule": "Event Aggregator"
-    },
-    "registrationTypeOption": {
-        "label": {
-            "en": "Free",
-            "fr": "Gratuit"
-        },
-        "description": {
-            "en": "Free admission.",
-            "fr": "Entrï¿½e libre."
-        },
-        "capacity": "10",
-        "fee": {
-            "price": "5",
-            "type": "PerUnit",
-            "label": "Ticket",
-            "min": "0",
-            "max": "10"
+        "registrationTypeOption": {
+            "label": {
+                "en": "Free",
+                "fr": "Gratuit"
+            },
+            "description": {
+                "en": "Free admission.",
+                "fr": "Entrée libre."
+            },
+            "capacity": "10",
+            "fee": {
+                "price": "5",
+                "type": "PerUnit",
+                "label": "Ticket",
+                "min": "0",
+                "max": "10"
+            }
         }
     }
-}
+]
 ```
 
