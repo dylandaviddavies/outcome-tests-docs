@@ -22,6 +22,7 @@ var tests = [
         path: '',
         children: [
             'AlumniLoginTest',
+            'CcCreateActivityPositionTest',
             'DfAllQuestionsTest',
             'EmployerLoginTest',
             'ExpCreateOpportunityTest',
