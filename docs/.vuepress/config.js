@@ -24,6 +24,7 @@ var tests = [
             'AlumniLoginTest',
             'CcCreateActivityPositionTest',
             'DfAllQuestionsTest',
+            'DocUploadToDashboardTest',
             'EmployerLoginTest',
             'ExpCreateOpportunityTest',
             'ExpCreateTermCourseTest',
