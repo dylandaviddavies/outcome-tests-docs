@@ -32,6 +32,7 @@ var tests = [
             'GeCreateRegisterableSimpleEventTest',
             'GeCreateSimpleEventTest',
             'GeCreateSimpleMultidayEventTest',
+            'NpApplyTest',
             'NpCreateJobTest',
             'NpStudentJobKeywordSearchFilterTest',
             'PortalStaffDashboardAddScheduledOrgTaskTest',
