@@ -22,7 +22,7 @@ Every data file starts with a surrounding array representing the test runs. Each
 ```
 
 ``` csharp
-// /Tests/MyTest.csharp 
+// /Tests/MyTest.cs 
 [TestClass]
 public class MyTest : BaseTest {
     [TestMethod, JsonDataSource]
