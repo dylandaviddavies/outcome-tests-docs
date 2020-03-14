@@ -15,6 +15,18 @@ var outcome = [
     ''
 ];
 
+var core = [
+    {
+        collapsable: false,
+        title: 'Core',
+        path: '',
+        children: [
+            'data-source',
+            'page-objects'
+        ]    
+    }
+];
+
 var tests = [
     {
         collapsable: false,
@@ -169,6 +181,7 @@ var model = [
 var sidebar = {
     '/guide/': guide,
     '/outcome/': outcome,
+    '/core/': core,
     '/tests/': tests,
     '/model/': model
 };
@@ -185,6 +198,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
+            { text: 'Core', link: '/core/' },
             { text: 'Tests', link: '/tests/' },
             { text: 'Model', link: '/model/' },
             { text: 'Outcome', link: '/outcome/' }
