@@ -5,8 +5,9 @@ var guide = [
         path: '',
         children: [
             ['', 'Introduction'],
-            'runsettings',
-            'azure'
+            'azure',      
+            'development-environment',      
+            'runsettings'
         ]
     }
 ];;
