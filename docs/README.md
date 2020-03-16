@@ -17,8 +17,8 @@ actionLink: /guide/
         <p><a href="tests/">Read more</a></p>
     </div>
     <div class="feature">
-        <h2>Learn Outcome</h2> 
-        <p>Learn about how Outcome works by reading about its many features.</p>
-        <p><a href="outcome/">Read more</a></p>
+        <h2>Development Guide</h2> 
+        <p>Learn the core development fundamentals.</p>
+        <p><a href="core/">Read more</a></p>
     </div>
 </div>
