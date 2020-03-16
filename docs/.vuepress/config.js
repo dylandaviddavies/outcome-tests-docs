@@ -180,7 +180,7 @@ var model = [
 
 var sidebar = {
     '/guide/': guide,
-    '/outcome/': outcome,
+    //'/outcome/': outcome,
     '/core/': core,
     '/tests/': tests,
     '/model/': model
@@ -201,7 +201,7 @@ module.exports = {
             { text: 'Core', link: '/core/' },
             { text: 'Tests', link: '/tests/' },
             { text: 'Model', link: '/model/' },
-            { text: 'Outcome', link: '/outcome/' }
+            //{ text: 'Outcome', link: '/outcome/' }
         ],
         sidebar: sidebar
     }
