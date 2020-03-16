@@ -19,6 +19,6 @@ actionLink: /guide/
     <div class="feature">
         <h2>Development Guide</h2> 
         <p>Learn the core development fundamentals.</p>
-        <p><a href="core/">Read more</a></p>
+        <p><a href="development/">Read more</a></p>
     </div>
 </div>
