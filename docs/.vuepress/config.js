@@ -9,18 +9,15 @@ var guide = [
             'azure'
         ]
     }
-];
+];;
 
-var outcome = [
-    ''
-];
-
-var dev = [
+var development = [
     {
         collapsable: false,
         title: 'Development',
         path: '',
         children: [
+            ['', 'Introduction'],
             'data-source',
             'page-objects'
         ]    
@@ -180,8 +177,7 @@ var model = [
 
 var sidebar = {
     '/guide/': guide,
-    //'/outcome/': outcome,
-    '/development/': dev,
+    '/development/': development,
     '/tests/': tests,
     '/model/': model
 };
