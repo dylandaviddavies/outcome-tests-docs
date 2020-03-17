@@ -8,8 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",
-    "sh:deploy": "sh deploy.sh",
-    "bat:deploy": "deploy.bat"
+    "deploy": "deploy.bat"
   },
   "author": "",
   "license": "ISC",

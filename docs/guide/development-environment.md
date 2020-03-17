@@ -20,3 +20,8 @@ If you want to run the tests against your local server or a new site, run the **
 
 ## Specifying the Run Settings File
 In ***Visual Studio***, open the ***Outcome Tests*** project and select **Test > Test Settings > Select Test Settings File**, then select the ***.runsettings*** file.
+
+## Happy Testing!
+You're all done! Now you can run your tests using ***Visual Studio***. 
+
+If you want to set your tests up in Azure, consult [this guide](./azure).

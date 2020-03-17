@@ -7,8 +7,8 @@ actionLink: /guide/
 
 <div class="features">
     <div class="feature">
-        <h2>Setup Guide</h2> 
-        <p>Learn how to set up the Outcome Automated Testing app to work with your site.</p>
+        <h2>Guide</h2> 
+        <p>Learn how to run automated tests on your site.</p>
         <p><a href="guide/">Read more</a></p>
     </div>
     <div class="feature">
