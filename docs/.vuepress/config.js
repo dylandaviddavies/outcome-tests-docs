@@ -6,8 +6,12 @@ var guide = [
         children: [
             ['', 'Introduction'],
             'azure',      
-            'development-environment',      
-            'runsettings'
+            'development-environment',
+            'queries',   
+            'resource-files',   
+            'runsettings',
+            'setup-files',
+            'test-data'
         ]
     }
 ];;

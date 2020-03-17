@@ -1,6 +1,6 @@
 # Run Settings
 
-The .runsettings file contains global test parameters and run configurations. You'll need to customize the file for each unique site you're using alongside the testing app.
+The .runsettings file contains global test parameters and run configurations. You'll need to customize the file for each unique site you're targetting with the testing app.
 
 ## Parallel Testing
 You can set the number of tests to run in parallel by adding the following inside the RunSettings tag:
@@ -29,7 +29,7 @@ Test run parameters are values available to all tests during runtime and are nec
 The [culture](https://www.andiamo.co.uk/resources/iso-language-codes/) of the users being used for the tests.
 
 ### cultures
-The [cultures](https://www.andiamo.co.uk/resources/iso-language-codes/) the site support. Formatted as: L1,L2.
+The [cultures](https://www.andiamo.co.uk/resources/iso-language-codes/) the site supports. Formatted as: L1,L2.
 
 #### Examples
 | Site                | Cultures |
