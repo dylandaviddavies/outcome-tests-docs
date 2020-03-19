@@ -18,9 +18,6 @@ Choose a [Setup File](./setup-files) for the existing site you want to run the t
 ### New Site or Local Server
 If you want to run the tests against your local server or a new site, run the ***new-setup.bat*** [Setup File](./setup-files) to install the base [Resource Files](./resource-files). Note that the base [Resource Files](./resource-files) won't have any values so you'll have to define the values yourself.
 
-## Specifying the Run Settings File
-In ***Visual Studio***, open the ***Outcome Tests*** project and select **Test > Configure Run Settings > Select Solution Wide runsettings File**, then select the ***.runsettings*** file.
-
 ## Happy Testing!
 You're all done! Now you can run your tests using ***Visual Studio***. 
 
